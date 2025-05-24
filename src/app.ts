@@ -15,10 +15,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors(
-  //   {
-  //   origin: ['http://localhost:3000'],// Allow frontend origin
-  //   credentials: true, // Allow cookies and credentials
-  // }
+    {
+    origin: ['http://localhost:5174'],// Allow frontend origin
+    credentials: true, // Allow cookies and credentials
+  }
 ),
 );
 

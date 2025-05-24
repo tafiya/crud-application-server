@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.use(
   cors(
     {
-    origin: ['http://localhost:5174'],// Allow frontend origin
+    origin: ['https://crud-application-server-mfdl.vercel.app/'],// Allow frontend origin
     credentials: true, // Allow cookies and credentials
   }
 ),
